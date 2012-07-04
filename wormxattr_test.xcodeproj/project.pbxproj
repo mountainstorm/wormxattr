@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAA4A0E145871B500A4880A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA4A0D145871B500A4880A /* Cocoa.framework */; };
+		1EAA4A18145871B500A4880A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA4A16145871B500A4880A /* InfoPlist.strings */; };
+		1EAA4A27145872C300A4880A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA4A26145872C300A4880A /* SenTestingKit.framework */; };
+		1EAA4A2A145872FB00A4880A /* wormxattr_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA4A29145872FB00A4880A /* wormxattr_test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EAA4A0A145871B500A4880A /* wormxattr_test.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wormxattr_test.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAA4A0D145871B500A4880A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1EAA4A10145871B500A4880A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1EAA4A11145871B500A4880A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1EAA4A12145871B500A4880A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EAA4A15145871B500A4880A /* wormxattr_test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wormxattr_test-Info.plist"; sourceTree = "<group>"; };
+		1EAA4A17145871B500A4880A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1EAA4A19145871B500A4880A /* wormxattr_test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wormxattr_test-Prefix.pch"; sourceTree = "<group>"; };
+		1EAA4A26145872C300A4880A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1EAA4A28145872FB00A4880A /* wormxattr_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wormxattr_test.h; sourceTree = "<group>"; };
+		1EAA4A29145872FB00A4880A /* wormxattr_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wormxattr_test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAA4A07145871B500A4880A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA4A0E145871B500A4880A /* Cocoa.framework in Frameworks */,
+				1EAA4A27145872C300A4880A /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EAA49FF145871B500A4880A = {
+			isa = PBXGroup;
+			children = (
+				1EAA4A13145871B500A4880A /* wormxattr_test */,
+				1EAA4A0C145871B500A4880A /* Frameworks */,
+				1EAA4A0B145871B500A4880A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAA4A0B145871B500A4880A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA4A0A145871B500A4880A /* wormxattr_test.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAA4A0C145871B500A4880A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA4A26145872C300A4880A /* SenTestingKit.framework */,
+				1EAA4A0D145871B500A4880A /* Cocoa.framework */,
+				1EAA4A0F145871B500A4880A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EAA4A0F145871B500A4880A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA4A10145871B500A4880A /* AppKit.framework */,
+				1EAA4A11145871B500A4880A /* CoreData.framework */,
+				1EAA4A12145871B500A4880A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1EAA4A13145871B500A4880A /* wormxattr_test */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA4A28145872FB00A4880A /* wormxattr_test.h */,
+				1EAA4A29145872FB00A4880A /* wormxattr_test.m */,
+				1EAA4A14145871B500A4880A /* Supporting Files */,
+			);
+			path = wormxattr_test;
+			sourceTree = "<group>";
+		};
+		1EAA4A14145871B500A4880A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA4A15145871B500A4880A /* wormxattr_test-Info.plist */,
+				1EAA4A16145871B500A4880A /* InfoPlist.strings */,
+				1EAA4A19145871B500A4880A /* wormxattr_test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAA4A09145871B500A4880A /* wormxattr_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAA4A1C145871B500A4880A /* Build configuration list for PBXNativeTarget "wormxattr_test" */;
+			buildPhases = (
+				1EAA4A06145871B500A4880A /* Sources */,
+				1EAA4A07145871B500A4880A /* Frameworks */,
+				1EAA4A08145871B500A4880A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wormxattr_test;
+			productName = wormxattr_test;
+			productReference = 1EAA4A0A145871B500A4880A /* wormxattr_test.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAA4A01145871B500A4880A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1EAA4A04145871B500A4880A /* Build configuration list for PBXProject "wormxattr_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EAA49FF145871B500A4880A;
+			productRefGroup = 1EAA4A0B145871B500A4880A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAA4A09145871B500A4880A /* wormxattr_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAA4A08145871B500A4880A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA4A18145871B500A4880A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAA4A06145871B500A4880A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA4A2A145872FB00A4880A /* wormxattr_test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EAA4A16145871B500A4880A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAA4A17145871B500A4880A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EAA4A1A145871B500A4880A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1EAA4A1B145871B500A4880A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1EAA4A1D145871B500A4880A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wormxattr_test/wormxattr_test-Prefix.pch";
+				INFOPLIST_FILE = "wormxattr_test/wormxattr_test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1EAA4A1E145871B500A4880A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wormxattr_test/wormxattr_test-Prefix.pch";
+				INFOPLIST_FILE = "wormxattr_test/wormxattr_test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAA4A04145871B500A4880A /* Build configuration list for PBXProject "wormxattr_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA4A1A145871B500A4880A /* Debug */,
+				1EAA4A1B145871B500A4880A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAA4A1C145871B500A4880A /* Build configuration list for PBXNativeTarget "wormxattr_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA4A1D145871B500A4880A /* Debug */,
+				1EAA4A1E145871B500A4880A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAA4A01145871B500A4880A /* Project object */;
+}
